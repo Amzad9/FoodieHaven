@@ -59,12 +59,12 @@ const Navbar = () => {
               Menu
             </Link>
             <a href="#how-it-works" className="nav-link">How It Works</a>
-            <Link 
+            {/* <Link 
               to="/dashboard" 
               className={`nav-link ${isLinkActive('/dashboard') ? 'text-amber-600 after:w-full' : ''}`}
             >
               Dashboard
-            </Link>
+            </Link> */}
             
             <div className="flex items-center gap-4">
               <DropdownMenu>
