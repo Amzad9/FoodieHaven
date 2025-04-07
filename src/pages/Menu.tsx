@@ -22,7 +22,6 @@ const Menu = () => {
   return (
     <div className="min-h-screen bg-stone-50">
       <Navbar />
-      
       <div className="container mx-auto px-6 py-16">
         <h1 className="text-4xl md:text-5xl font-display font-bold text-center mb-4">Our Menu</h1>
         <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">
